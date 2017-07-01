@@ -13,7 +13,7 @@ We'll cover:
  - alternative frameworks (Unity3D, JUCE) https://clutch.co/app-development/cross-platform
 
 
-# SWIFT
+## SWIFT
 
 https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/  
 Take the tour (using the playground), Language Guide  
@@ -22,7 +22,7 @@ Notice iBooks (at top) -- same material! Download the iBook!
 QuickRef: https://www.gitbook.com/book/azuritul/swift-syntax-quick-reference
 
 
-# iOS AppDev with SWIFT
+## iOS AppDev with SWIFT
 
 Building Your First Swift App Video (6min) https://developer.apple.com/swift/blog/?id=16
 
@@ -48,7 +48,7 @@ https://itunes.apple.com/us/book/intro-to-app-development-with-swift/id111857555
 https://itunes.apple.com/us/book/app-development-with-swift/id1219117996?mt=11
 
 
-# Possibles:
+## Possibles:
 
 https://itunes.apple.com/gb/book/swift-coding-challenges/id1177738461?mt=11  
 https://www.hackingwithswift.com/read -- online book by same author
@@ -58,4 +58,26 @@ http://blog.udacity.com/2015/10/14-essential-swift-ios-resources.html
 https://github.com/matteocrippa/awesome-swift  
 https://github.com/vsouza/awesome-ios <-- other good Lists (see open source)
 
-THE IMAGE!
+
+# Swift
+
+```
+class XY {
+    init(_x:Float,_y:Float) {x=_x; y=_y}
+    var x:Float, y:Float
+}
+
+var x = XY(_x: 3,_y: 4)
+
+extension XY {
+    func mag2()->Float {return x*x + y*y}
+}
+
+x.mag2()
+```
+
+Extend String to have an isPalendromic() method
+Complex maybe?
+
+Mandelbrot https://developer.apple.com/swift/blog/?id=26 -> https://github.com/palmerc/Mandelbrot-Swift-Playground
+
